@@ -31,10 +31,8 @@ This improved version will provide you with a comprehensive comparison of the tw
 
 
 
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Excel Comparison Script Overview</title>
+
+   #  <title>Excel Comparison Script Overview</title>
 </head>
 <body>
     <h1>Excel Comparison Script Overview</h1>
