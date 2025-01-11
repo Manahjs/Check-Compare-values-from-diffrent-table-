@@ -1,5 +1,36 @@
 # Check-Compare-values-from-diffrent-table-
 analysis understand and compare the data from different sources [AUC CONCEPT] A small code used in every industries  Relive  for sql devlopers and HR &amp; Startigies partner
+# Excel Comparison Script Overview
+
+## Key Improvements
+1. It reads the entire Excel files instead of just specific columns, allowing us to provide full row details for unmatched items.
+2. It uses a dictionary (`search_dict`) created from the second DataFrame for faster searching. This approach is more efficient than using a set, especially for large datasets.
+3. The script now provides more detailed information about unmatched rows, including the full row details from the first file.
+4. It separates matched and unmatched results for better readability.
+5. A summary is added at the end, showing the total number of rows, matched rows, and unmatched rows.
+
+## How to Use the Script
+1. Make sure you have the `pandas` library installed. If not, you can install it using `pip install pandas`.
+2. Replace the file paths (`file1` and `file2`) with the correct paths to your Excel files.
+3. Set the `column1` and `column2` variables to the correct column names in your Excel files.
+4. Run the script.
+
+## Script Updates
+
+### Quantity Matching Script
+This improved version will provide you with a comprehensive comparison of the two Excel files, giving you detailed information about both matched and unmatched rows. The hash-based search algorithm (using a dictionary) should also provide better performance for large datasets.
+
+```python
+# Excel Comparison Script with Quantity Matching
+# ...
+
+# Excel Comparison Script with Quantity and Rate Matching
+# ...
+
+
+
+
+
 <!DOCTYPE html>
 <html>
 <head>
